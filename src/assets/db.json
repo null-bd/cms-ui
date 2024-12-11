@@ -1,0 +1,44 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "Patient": "Raj",
+      "Gender": "Male",
+      "Age": 35,
+      "Consultant": "Dr.Prakash",
+      "Tag": "Priority"
+    },
+    {
+      "id": "2",
+      "Patient": "Ram",
+      "Gender": "Male",
+      "Age": 35,
+      "Consultant": "Dr.Prakash",
+      "Tag": "Priority"
+    },
+    {
+      "id": "3",
+      "Patient": "Reeth",
+      "Gender": "Female",
+      "Age": 25,
+      "Consultant": "Dr.Ruth",
+      "Tag": "Discharge"
+    },
+    {
+      "id": "4",
+      "Patient": "Radhi",
+      "Gender": "Female",
+      "Age": 25,
+      "Consultant": "Dr.Ruth",
+      "Tag": "Discharge"
+    },
+    {
+      "id": "",
+      "Patient": "",
+      "Gender": "",
+      "Age": "",
+      "Consultant": "",
+      "Tag": ""
+    }
+  ]
+}
