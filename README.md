@@ -1,25 +1,21 @@
 # hospital-management-app
-# cms
+# frontend
 
-## Project setup
+## Project update
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+pnpm install
 ```
 
-### Compiles and minifies for production
+## Run
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+pnpm run dev
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Lints
+```
+pnpm run lint
+pnpm run lint:fix
+```
+
+## Documentation
+- Refer /DOC folder/directory
