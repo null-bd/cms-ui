@@ -1,0 +1,2 @@
+LAYOUT:
+When adding a new layout = you may spot wired behaviour/flickering. Solution: restart server `pnpm dev`

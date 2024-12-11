@@ -1,0 +1,37 @@
+1 : Vue.js
+2 : Vite
+3 : TypeScript
+4 : Vue Router
+5 : Pinia
+6 : Tailwind CSS
+7 : Heroicons
+8 : Headless UI
+9 : Vue i18n
+10: VueUse
+11: Axios
+12: Vitest
+13: Cypress
+14: Vue Query
+15: PostCSS
+16: PWA plugin for Vite
+17: ESLint + Prettier
+18: Commitlint + Husky
+19: Lighthouse CI
+20: Vue Meta
+21: Vue Accessibility Plugin
+22: PNPM
+23: Docker
+24: Git & GitHub
+25: Vue Test Utils
+26: Sass
+27: Dark Mode Detection
+28: Pinia ORM
+29: Vue Formulate
+30: Vue 3 Datepicker
+31: Vue Toastification
+32: Vue Data Tables
+33: date-fns
+34: ApexCharts
+35: https://tailwindui.com/ 
+36: vscode
+37: linux os (archlinux)

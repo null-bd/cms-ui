@@ -1,0 +1,45 @@
+NUXT:
+Folder structure:
+app     : nuxt  : by nuxt v4 (Early set)
+        : All our frontend logics
+content : nuxt recommanded
+DOC     : For our information/documentation
+layers  : nuxt recommanded
+modules : nuxt recommanded
+public  : nuxt  : public resources like css, js, images, font etc
+server  : nuxt  : For backend/Server side 
+
+Files:
+eslint.config.mjs   :   lint
+nuxt.config.ts      :   NUXT
+packages.json       :   node
+pnpm-lock.yaml      :   pnpm
+tsconfig.json       :   NUXT
+
+To run:
+pnpm install
+pnpm run dev        :   http://localhost:3000/
+
+
+Current Links:
+    - for learning purposes
+    - /             : Home page
+    - /about        : about
+    - /abc123       : Some nuxt stuff
+    - /login        : Login page
+    -
+    - How its working:
+        - no routing config Files   : works based on folder & Files : check /app/pages
+        - Same way there are other files for templating and blocks
+            - components    : blocks
+            - layouts       : check home and login  : both have different layout (check script tags)
+
+ISSUES:
+    - Almost all information coverd
+    - Ping me at any time :)
+    - DOCKER FILES :
+        - From my old vue project: have to update it
+
+
+FOLDERS / FILES : To be deleted
+ - BACKUP

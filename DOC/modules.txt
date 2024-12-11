@@ -1,0 +1,4 @@
+# LIST:
+- https://eslint.nuxt.com/packages/module
+    - https://eslint.org/docs/latest/use/configure/configuration-files
+    

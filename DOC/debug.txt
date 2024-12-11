@@ -1,0 +1,14 @@
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+ESLINT:
+A) nuxt dev tools
+or
+B) `pnpm dlx @eslint/config-inspector`
+
+## Check scripts in packages.json file
+`pnpm run lint`
+`pnpm run lint:fix`
+
+ESLint Stylistic:
+- https://eslint.style/guide/config-presets#configuration-factory
+- Customize: https://eslint.nuxt.com/packages/module#config-customizations

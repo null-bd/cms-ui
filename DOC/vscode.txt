@@ -1,0 +1,24 @@
+Extensions:
+OFFICIAL: NUXT/VUE
+- https://marketplace.visualstudio.com/items?itemName=Vue.volar
+- https://marketplace.visualstudio.com/items?itemName=vitest.explorer
+
+DEVELOPMENT:
+- https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets
+- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- https://marketplace.visualstudio.com/items?itemName=antfu.iconify
+- https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+- https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples
+- https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented
+- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+- https://marketplace.visualstudio.com/items?itemName=Trapfether.tailwind-raw-reorder
+
+Not recommanded:
+- https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    - Making ISSUES with lint command
+
+
+FASED ISSUES:
+- nuxt.config.ts formats auto, but app.config.ts formats using 4 space for tab.
+    - open app.config.ts = right click -> format document with -> configure default formatter -> ESLint   
+    - run: `pnpm run lint`   If everything ok? then => `pnpm run lint:fix`
