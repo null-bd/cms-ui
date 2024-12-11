@@ -1,0 +1,65 @@
+QUICK:
+```js
+useHead({ })    # key: value pair
+```
+* useSeoMeta
+---
+
+HEAD SECTION:
+```html
+<html>
+    <head> *** HERE *** </head>
+    <body> </body>
+</html>
+```
+
+# This is where SEO.
+https://nuxt.com/docs/getting-started/seo-meta
+
+## GLOBAL
+* Apply to all the pages in entire website
+
+From the doc:
+```js
+// nuxt.config.ts
+export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
+  }
+})
+
+```
+
+## SINGLE pages
+* Also apply to its calling pages if done in `app.vue`
+
+<script setup lang="ts">
+useHead({
+  title: 'My App',
+  meta: [
+    { name: 'description', content: 'My amazing site.' }
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+  script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+})
+</script>
+
+---
+# SEO:
+```js
+<script setup lang="ts">
+useSeoMeta({
+  title: 'My Amazing Site',
+  ogTitle: 'My Amazing Site',
+  description: 'This is my amazing site, let me tell you all about it.',
+  ogDescription: 'This is my amazing site, let me tell you all about it.',
+  ogImage: 'https://example.com/image.png',
+  twitterCard: 'summary_large_image',
+})
+</script>
+```

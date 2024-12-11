@@ -13,15 +13,13 @@ node_modules
 logs
 *.log
 
-# Misc
-.DS_Store
-.fleet
-.idea
-
-# Local env files
-.env
-.env.*
-!.env.example
+# LINT
+eslint.config.mjs
 
 # Other
 .vscode
+DOC
+
+.git
+.gitignore
+*.md

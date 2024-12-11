@@ -1,0 +1,44 @@
+STEP 1::
+https://nuxt.com/docs/getting-started/installation
+1. pnpm dlx nuxi@latest init <project-name>
+    * Select pnpm
+    * Select git
+2. cd <project-name>
+
+STEP 2::
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#importing-a-git-repository-with-the-command-line
+GITHUB: Create a repository
+1. git remote add origin https://github.com/featuriz/to_frontend.git
+2. git remote -v    # Checking it working or not
+3. git push origin main
+    * Or use vs code
+
+STEP 3::
+CONFIGURATION: 
+https://nuxt.com/docs/getting-started/upgrade
+https://nuxt.com/docs/getting-started/upgrade#new-directory-structure
+
+```
+Migration Steps
+
+    Create a new directory called app/.
+    Move your assets/, components/, composables/, layouts/, middleware/, pages/, plugins/ and utils/ folders under it, as well as app.vue, error.vue, app.config.ts. If you have an app/router-options.ts or app/spa-loading-template.html, these paths remain the same.
+    Make sure your nuxt.config.ts, content/, layers/, modules/, public/ and server/ folders remain outside the app/ folder, in the root of your project.
+    Remember to update any third-party configuration files to work with the new directory structure, such as your tailwindcss or eslint configuration (if required - @nuxtjs/tailwindcss should automatically configure tailwindcss correctly).
+
+```
+https://nuxt.com/docs/getting-started/configuration#app-configuration
+
+
+STEP 4::
+FOLDER STRUCTURE : V4
+
+STEP 5::
+FILES, TEMPLATES, COMPONENTS, HEAD: title, description, seo.
+
+STEP 5::
+MODULES
+    - ESLINT = https://eslint.nuxt.com/packages/module
+        `pnpm dlx nuxi module add eslint`           # NPX in PNPM = pnpm dlx
+        `pnpm add -D typescript`
+        `pnpm add -D @nuxt/eslint eslint typescript` # YES DO THIS - In order
