@@ -1,2 +1,10 @@
 LAYOUT:
 When adding a new layout = you may spot wired behaviour/flickering. Solution: restart server `pnpm dev`
+
+VSCODE:
+- nuxt.config.js:
+    - defineNuxtConfig : Cannot find name 'defineNuxtConfig'.ts
+    Solution:
+        - On VSCode press `F1` or `Ctrl + Shift + P`
+        - Type `Volar: Select Typescript Version`
+        - Select `Use workspace version`

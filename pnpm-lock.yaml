@@ -39,6 +39,9 @@ importers:
       sass:
         specifier: ^1.82.0
         version: 1.82.0
+      tailwindcss:
+        specifier: ^3.4.16
+        version: 3.4.16
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
