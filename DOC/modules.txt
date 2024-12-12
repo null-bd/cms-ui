@@ -1,4 +1,18 @@
 # LIST:
 - https://eslint.nuxt.com/packages/module
     - https://eslint.org/docs/latest/use/configure/configuration-files
-    
+- https://tailwindcss.nuxtjs.org/
+    - https://nuxt.com/modules/tailwindcss
+- https://fonts.nuxt.com/
+    - https://nuxt.com/modules/fonts
+- https://nuxt.com/modules/icon
+    - https://stackblitz.com/edit/nuxt-icon-playground?file=app.vue
+- https://nuxt.com/modules/image
+    - https://image.nuxt.com/
+    - Use image in /public
+        - https://nuxt.com/docs/getting-started/assets
+            - Nuxt won't serve files in the assets/ directory at a static URL like /assets/my-file.png. If you need a static URL, use the public/ directory.
+        - https://image.nuxt.com/get-started/configuration#dir
+            - For ipxStatic provider, if images weren't crawled during generation (unreachable modals, pages or dynamic runtime size), changing dir from public causes 404 errors.
+            - For some providers (like vercel), using a directory other than public/ for assets is not supported since resizing happens at runtime (instead of build/generate time) and source fetched from the public/ directory (deployment URL)
+- 

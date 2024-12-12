@@ -42,3 +42,29 @@ MODULES
         `pnpm dlx nuxi module add eslint`           # NPX in PNPM = pnpm dlx
         `pnpm add -D typescript`
         `pnpm add -D @nuxt/eslint eslint typescript` # YES DO THIS - In order
+
+STEP 6::
+MAKE A REAL WEBSITE
+MODULES
+    - Tailwind = https://tailwindcss.nuxtjs.org/getting-started/installation
+        `pnpm dlx nuxi module add @nuxtjs/tailwindcss`
+        `pnpm dlx tailwindcss init --ts`                 # Creates tailwind.config.js
+        - https://tailwindcss.nuxtjs.org/tailwind/viewer
+        - https://tailwindcss.nuxtjs.org/tailwind/editor-support
+        - https://tailwindcss.com/docs/configuration
+        DevTools: http://localhost:3000/_tailwind/
+    - Fonts     = https://fonts.nuxt.com/get-started/installation
+        `pnpm dlx nuxi module add @nuxt/fonts`
+            - ISSUES?:
+                `pnpm up @nuxt/fonts`
+                `pnpm dlx nuxt@latest upgrade --force`
+        NOTE: You dont have to anything (no cdn, font config etc)
+            - Set the font in tailwind.config.ts    : Eg:: theme: fontFamily: Roboto
+            - call in html                          : <div class="font-Roboto">
+            - simple right?
+    - ICONS     = https://nuxt.com/modules/icon
+        `pnpm dlx nuxi module add icon`
+    - IMAGES    = https://nuxt.com/modules/image
+        `pnpm dlx nuxi module add image`
+    - SASS      
+        `pnpm add sass -D`

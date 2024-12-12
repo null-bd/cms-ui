@@ -10,5 +10,6 @@ useHead({
 <template>
   <section>
     <p>Login page content goes here.</p>
+    <p>Using login layout (template)</p>
   </section>
 </template>

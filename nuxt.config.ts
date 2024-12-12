@@ -1,7 +1,13 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/fonts',
+    '@nuxt/icon',
+    '@nuxt/image',
+  ],
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/sass/main.sass'],
   runtimeConfig: {
     apiSecret: '123',
     public: {
@@ -17,6 +23,11 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
     },
+  },
+  image: {
+    dir: 'assets/img',
+    quality: 80,
+    domains: ['https://cdn.dummyjson.com'], // For testing purposes only
   },
 })
 
