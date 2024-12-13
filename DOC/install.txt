@@ -42,3 +42,57 @@ MODULES
         `pnpm dlx nuxi module add eslint`           # NPX in PNPM = pnpm dlx
         `pnpm add -D typescript`
         `pnpm add -D @nuxt/eslint eslint typescript` # YES DO THIS - In order
+
+STEP 6::
+MAKE A REAL WEBSITE
+MODULES
+    - Tailwind = https://tailwindcss.nuxtjs.org/getting-started/installation
+        `pnpm dlx nuxi module add @nuxtjs/tailwindcss`
+        `pnpm dlx tailwindcss init --ts`                 # Creates tailwind.config.js
+        - https://tailwindcss.nuxtjs.org/tailwind/viewer
+        - https://tailwindcss.nuxtjs.org/tailwind/editor-support
+        - https://tailwindcss.com/docs/configuration
+        DevTools: http://localhost:3000/_tailwind/
+    - Fonts     = https://fonts.nuxt.com/get-started/installation
+        `pnpm dlx nuxi module add @nuxt/fonts`
+            - ISSUES?:
+                `pnpm up @nuxt/fonts`
+                `pnpm dlx nuxt@latest upgrade --force`
+        NOTE: You dont have to anything (no cdn, font config etc)
+            - Set the font in tailwind.config.ts    : Eg:: theme: fontFamily: Roboto
+            - call in html                          : <div class="font-Roboto">
+            - simple right?
+    - ICONS     = https://nuxt.com/modules/icon
+        `pnpm dlx nuxi module add icon`
+    - IMAGES    = https://nuxt.com/modules/image
+        `pnpm dlx nuxi module add image`
+    - SASS      
+        `pnpm add sass -D`
+
+STEP 7::
+TESTING
+- https://nuxt.com/docs/getting-started/testing
+    - `pnpm add -D @nuxt/test-utils vitest @vue/test-utils happy-dom playwright-core`
+    - `pnpm run test`
+
+SETP 8::
+SEO
+- https://nuxtseo.com/
+    - `pnpm dlx nuxi module add seo`
+SCRIPTS
+- https://scripts.nuxt.com/
+    - `pnpm dlx nuxi module add scripts`
+
+STEP 9::
+SHADCN
+- https://nuxt.com/modules/shadcn
+- https://www.shadcn-vue.com/docs/installation/nuxt
+    - `pnpm dlx nuxi module add color-mode`
+    - `pnpm dlx nuxi module add shadcn-nuxt`
+    - `pnpm dlx shadcn-vue@latest init`
+TEST
+- Add Button
+    - `pnpm dlx shadcn-vue@latest add button`
+ISSUES
+    - https://github.com/nuxt/nuxt/issues/29779
+            - "shadcn-nuxt": "^0.10.4", 

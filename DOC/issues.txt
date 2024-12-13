@@ -1,2 +1,16 @@
 LAYOUT:
 When adding a new layout = you may spot wired behaviour/flickering. Solution: restart server `pnpm dev`
+
+VSCODE:
+- nuxt.config.js:
+    - defineNuxtConfig : Cannot find name 'defineNuxtConfig'.ts
+    Solution:
+        - On VSCode press `F1` or `Ctrl + Shift + P`
+        - Type `Volar: Select Typescript Version`
+        - Select `Use workspace version`
+SHADCN:
+    - `pnpm dlx nuxi module add color-mode`
+    - `pnpm dlx nuxi module add shadcn-nuxt`
+    - If it continues: 
+        - https://github.com/nuxt/nuxt/issues/29779
+            - "shadcn-nuxt": "^0.10.4", 

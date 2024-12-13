@@ -1,7 +1,17 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxtjs/tailwindcss',
+    '@nuxt/fonts',
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@nuxtjs/seo',
+    '@nuxt/scripts',
+    'shadcn-nuxt',
+    '@nuxtjs/color-mode',
+  ],
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/sass/main.sass'],
   runtimeConfig: {
     apiSecret: '123',
     public: {
@@ -13,10 +23,25 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   compatibilityDate: '2024-11-01',
+  typescript: {
+    strict: true,
+  },
   eslint: {
     config: {
       stylistic: true,
     },
+  },
+  image: {
+    dir: 'assets/img',
+    quality: 80,
+    domains: ['https://cdn.dummyjson.com'], // For testing purposes only
+  },
+  ogImage: {
+    enabled: false,
+  },
+  shadcn: {
+    prefix: '',
+    componentDir: './app/components/ui',
   },
 })
 
