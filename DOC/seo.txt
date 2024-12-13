@@ -63,3 +63,12 @@ useSeoMeta({
 })
 </script>
 ```
+
+USING PLUGIN:
+- https://nuxtseo.com/
+    - `pnpm dlx nuxi module add seo`
+    Check: 
+      - http://localhost:3000/robots.txt
+      - http://localhost:3000/sitemap.xml
+      - OG Image in dev tools
+      

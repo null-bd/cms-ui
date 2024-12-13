@@ -68,3 +68,17 @@ MODULES
         `pnpm dlx nuxi module add image`
     - SASS      
         `pnpm add sass -D`
+
+STEP 7::
+TESTING
+- https://nuxt.com/docs/getting-started/testing
+    - `pnpm add -D @nuxt/test-utils vitest @vue/test-utils happy-dom playwright-core`
+    - `pnpm run test`
+
+SETP 8::
+SEO
+- https://nuxtseo.com/
+    - `pnpm dlx nuxi module add seo`
+SCRIPTS
+- https://scripts.nuxt.com/
+    - `pnpm dlx nuxi module add scripts`

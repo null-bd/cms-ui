@@ -54,6 +54,17 @@
         </div>
       </div>
     </div>
+    <h3 class="title font-Cinzel">
+      Youtube video
+    </h3>
+    <ScriptYouTubePlayer video-id="d_IFKP1Ofq0">
+      <template #placeholder="{ placeholder }">
+        <img
+          :src="placeholder"
+          alt="Video Placeholder"
+        >
+      </template>
+    </ScriptYouTubePlayer>
   </div>
 </template>
 

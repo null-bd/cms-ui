@@ -5,6 +5,8 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
+    '@nuxtjs/seo',
+    '@nuxt/scripts',
   ],
   devtools: { enabled: true },
   css: ['~/assets/sass/main.sass'],
