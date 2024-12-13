@@ -1,4 +1,4 @@
-# hospital-management-app
+# cms-ui
 # frontend
 
 ## Project update
