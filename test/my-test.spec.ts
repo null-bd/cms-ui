@@ -14,6 +14,6 @@ describe('login page', async () => {
   test('Check homepage Title', async () => {
     const response = await fetch('/')
     const html = await response.text()
-    expect(html).toContain('<title>My Amazing Site</title>')
+    expect(html).toContain('<title>My Amazing Site | nuxt-app</title>')
   })
 })

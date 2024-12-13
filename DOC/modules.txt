@@ -15,4 +15,4 @@
         - https://image.nuxt.com/get-started/configuration#dir
             - For ipxStatic provider, if images weren't crawled during generation (unreachable modals, pages or dynamic runtime size), changing dir from public causes 404 errors.
             - For some providers (like vercel), using a directory other than public/ for assets is not supported since resizing happens at runtime (instead of build/generate time) and source fetched from the public/ directory (deployment URL)
-- 
+- https://nuxt.com/modules/shadcn

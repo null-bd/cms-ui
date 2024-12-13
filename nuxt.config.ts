@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/seo',
     '@nuxt/scripts',
+    'shadcn-nuxt',
+    '@nuxtjs/color-mode',
   ],
   devtools: { enabled: true },
   css: ['~/assets/sass/main.sass'],
@@ -33,6 +35,13 @@ export default defineNuxtConfig({
     dir: 'assets/img',
     quality: 80,
     domains: ['https://cdn.dummyjson.com'], // For testing purposes only
+  },
+  ogImage: {
+    enabled: false,
+  },
+  shadcn: {
+    prefix: '',
+    componentDir: './app/components/ui',
   },
 })
 

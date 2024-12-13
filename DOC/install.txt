@@ -82,3 +82,17 @@ SEO
 SCRIPTS
 - https://scripts.nuxt.com/
     - `pnpm dlx nuxi module add scripts`
+
+STEP 9::
+SHADCN
+- https://nuxt.com/modules/shadcn
+- https://www.shadcn-vue.com/docs/installation/nuxt
+    - `pnpm dlx nuxi module add color-mode`
+    - `pnpm dlx nuxi module add shadcn-nuxt`
+    - `pnpm dlx shadcn-vue@latest init`
+TEST
+- Add Button
+    - `pnpm dlx shadcn-vue@latest add button`
+ISSUES
+    - https://github.com/nuxt/nuxt/issues/29779
+            - "shadcn-nuxt": "^0.10.4", 
