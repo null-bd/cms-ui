@@ -68,6 +68,6 @@
   </div>
 </template>
 
-<style lang="sass">
+<style lang="postcss" scoped>
 @use "~/assets/sass/abc123.sass"
 </style>
